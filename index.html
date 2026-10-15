@@ -1,32 +1,44 @@
 <!doctype html><html lang="ko"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>데드폴트 마케팅 계약서</title><style>
-:root{--ink:#1a1c20;--line:#d5d8de;--soft:#f6f7f9;--mk:#fff1b8}
+:root{--ink:#1a1c20;--line:#d5d8de;--soft:#f6f7f9;--th:#eceef2;--mk:#fff1b8;--accent:#0b5cad}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:#fff;color:var(--ink);font-family:Pretendard,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;font-size:14px;line-height:1.7;overflow-wrap:anywhere;word-break:keep-all}
-main{max-width:780px;margin:0 auto;padding:28px 16px 40px}
-h1{font-size:21px;text-align:center;margin:0 0 16px} h2{font-size:14.5px;margin:16px 0 4px} p{margin:4px 0}
-.li{padding-left:8px} mark{background:var(--mk)}
+main{max-width:780px;margin:0 auto;padding:24px 16px 40px}
+h1{font-size:21px;text-align:center;margin:0 0 14px} h2{font-size:14.5px;margin:16px 0 4px} p{margin:4px 0}
+mark{background:var(--mk)}
+.dl{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:0 0 20px}
+.dl a{flex:1 1 180px;max-width:240px;text-align:center;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:700;border:1.5px solid var(--accent);color:var(--accent)}
+.dl a.main{background:var(--accent);color:#fff}
+.sum{width:100%;border-collapse:collapse;margin:14px 0 6px;border:1.5px solid #9aa1ab}
+.sum th,.sum td{border:1px solid var(--line);padding:9px 10px;vertical-align:top;text-align:left}
+.sum th{width:132px;background:var(--th);font-weight:700;white-space:nowrap}
+.money .sub{display:block;color:#444} .money b{display:block;font-size:20px;color:var(--accent);letter-spacing:-.2px}
+.svc{display:flex;gap:6px;margin:2px 0} .svc i{font-style:normal;font-weight:700;flex:none}
+.chips{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+.chips span{border:1px solid var(--line);background:var(--soft);border-radius:999px;padding:3px 8px;text-align:center;font-size:13px;font-family:ui-monospace,Menlo,monospace}
 .date{text-align:center;margin:18px 0 12px;font-weight:600}
 .sigs{display:flex;flex-wrap:wrap;gap:12px} .sig{flex:1 1 300px;border:1px solid var(--line);border-radius:6px;padding:10px 12px;background:var(--soft)}
 .sig .who{font-weight:700;margin-bottom:4px} .sig span{display:inline-block;min-width:96px;color:#555} .sig em{font-style:normal;margin-left:18px}
-.dl{text-align:center;margin:0 0 18px} .dl a{display:inline-block;padding:8px 16px;border:1px solid var(--ink);border-radius:6px;color:var(--ink);text-decoration:none;font-weight:600}
+@media (max-width:560px){
+ .sum th{width:auto;white-space:normal;min-width:76px;padding:8px 7px} .sum td{padding:8px 8px}
+ .chips{grid-template-columns:repeat(2,minmax(0,1fr))} .money b{font-size:18px}
+}
 @media print{
- @page{size:A4;margin:14mm 15mm}
- body{font-size:10.6px;line-height:1.55} main{max-width:none;padding:0}
- h1{font-size:17px;margin-bottom:10px} h2{font-size:11.2px;margin:9px 0 2px} p{margin:2px 0}
- .dl{display:none} mark{background:none} .sig{background:none;padding:6px 10px} .sigs{break-inside:avoid} .date{margin:10px 0 8px}
+ @page{size:A4;margin:12mm 14mm}
+ body{font-size:10.8px;line-height:1.6;-webkit-print-color-adjust:exact;print-color-adjust:exact} main{max-width:none;padding:0}
+ h1{font-size:17px;margin-bottom:8px} h2{font-size:11.4px;margin:9px 0 2px} p{margin:2px 0} h2.pb{break-before:page;margin-top:0}
+ .dl{display:none} mark{background:none}
+ .sum{margin:8px 0 4px} .sum th,.sum td{padding:5px 8px} .sum th{width:110px}
+ .money b{font-size:14px} .chips{gap:3px} .chips span{font-size:9.5px;padding:1px 6px}
+ .sig{background:none;padding:5px 10px} .sigs{break-inside:avoid} .date{margin:22px 0 10px}
 }
 </style></head><body><main>
-<div class="dl"><a href="deadfault_contract.pdf">PDF 내려받기</a></div>
+<div class="dl"><a class="main" href="deadfault_contract.pdf">계약서 PDF 받기</a><a href="deadfault_quote.pdf">견적서 PDF 받기</a></div>
 <h1>인스타그램 마케팅 업무 계약서</h1>
-<p><mark>【상호(법인명)】</mark>(브랜드: 데드폴트 DEADFLT, 이하 &quot;갑&quot;)와 주식회사 서울링크(이하 &quot;을&quot;)는 &quot;갑&quot;의 데드폴트 브랜드 인스타그램 마케팅을 수행함에 있어 다음과 같이 계약을 체결한다.</p>
-<p class="li"><b>서비스명</b> : 데드폴트 인스타그램 인플루언서·페이지 마케팅 캠페인</p>
-<p class="li"><b>서비스 대금</b> : 공급가액 20,000,000원 + 부가가치세 2,000,000원 = 합계 22,000,000원</p>
-<p class="li"><b>서비스 내용</b> : ① 인스타그램 인플루언서 9명 릴스 게시 ② 인스타그램 페이지(정보·큐레이션 계정) 10곳 게시 ③ 위 게시물의 파트너스 코드(브랜디드 콘텐츠 광고)를 통한 2차 활용 광고 집행(광고비 4,150,000원 포함, 실집행)</p>
-<p class="li"><b>참여 인플루언서(9명)</b> : hid_zip, popup_dangni, someda._.ily, j_o_o_sy, a.zihyyyy, namuriki, cherr__iy, honey___pick, pickstival</p>
-<p class="li"><b>서비스 세부 범위</b> : 인플루언서·페이지 섭외, 콘텐츠 가이드 작성 및 전달, 게시 일정 관리, 게시 여부 확인, 파트너스 코드 광고 세팅 및 운영, 캠페인 종료 후 결과 보고</p>
+<p>주식회사 와이와이와이(브랜드: 데드폴트 DEADFLT, 이하 &quot;갑&quot;)와 주식회사 서울링크(이하 &quot;을&quot;)는 &quot;갑&quot;의 데드폴트 브랜드 인스타그램 마케팅을 수행함에 있어 다음과 같이 계약을 체결한다.</p>
+<table class="sum"><tr><th>서비스명</th><td>데드폴트 인스타그램 인플루언서·페이지 마케팅 캠페인</td></tr><tr><th>서비스 대금</th><td><div class="money"><span class="sub">공급가액 20,000,000원 + 부가가치세 2,000,000원 =</span> <b>합계 22,000,000원</b></div></td></tr><tr><th>서비스 내용</th><td><div class="svc"><i>①</i><span>인스타그램 인플루언서 9명 릴스 게시</span></div><div class="svc"><i>②</i><span>인스타그램 페이지(정보·큐레이션 계정) 10곳 게시</span></div><div class="svc"><i>③</i><span>위 게시물의 파트너스 코드(브랜디드 콘텐츠 광고)를 통한 2차 활용 광고 집행(광고비 4,150,000원 포함, 실집행)</span></div></td></tr><tr><th>참여 인플루언서(9명)</th><td><div class="chips"><span>hid_zip</span><span>popup_dangni</span><span>someda._.ily</span><span>j_o_o_sy</span><span>a.zihyyyy</span><span>namuriki</span><span>cherr__iy</span><span>honey___pick</span><span>pickstival</span></div></td></tr><tr><th>서비스 세부 범위</th><td>인플루언서·페이지 섭외, 콘텐츠 가이드 작성 및 전달, 게시 일정 관리, 게시 여부 확인, 파트너스 코드 광고 세팅 및 운영, 캠페인 종료 후 결과 보고</td></tr></table>
 <h2>제1조 (계약기간)</h2>
 <p>1. 본 계약은 계약 체결일부터 효력이 발생하며, 마지막 게시물의 게시 완료일로부터 30일이 되는 날까지 유효하다.</p>
 <p>2. 게시 일정은 &quot;을&quot;이 인플루언서·페이지 운영자와 협의하여 정하고 &quot;갑&quot;에게 미리 알린다. 상대방 사정으로 일정이 바뀌면 &quot;을&quot;은 지체 없이 &quot;갑&quot;에게 알린다.</p>
@@ -46,7 +58,7 @@ h1{font-size:21px;text-align:center;margin:0 0 16px} h2{font-size:14.5px;margin:
 <p>1. 게시물의 저작권은 제작한 인플루언서 또는 페이지 운영자에게 있다.</p>
 <p>2. &quot;갑&quot;은 파트너스 코드(브랜디드 콘텐츠 광고)를 통해 계약기간 내에 게시물을 광고로 활용할 수 있다. 계약기간을 넘는 활용, 원본 파일 요청, 다른 매체(자사몰·오프라인·다른 플랫폼) 활용은 &quot;을&quot;과 별도로 협의한다.</p>
 <p>3. &quot;갑&quot;이 제공한 제품·정보의 정확성과 적법성에 대한 책임은 &quot;갑&quot;에게 있다.</p>
-<h2>제6조 (비밀유지 및 직거래 금지)</h2>
+<h2 class="pb">제6조 (비밀유지 및 직거래 금지)</h2>
 <p>1. 양 당사자는 본 계약으로 알게 된 상대방의 영업 정보, 계약 금액, 인플루언서·페이지 정보를 제3자에게 누설하지 않는다.</p>
 <p>2. &quot;갑&quot;은 계약기간과 종료 후 24개월 동안 &quot;을&quot;을 통해 소개받은 인플루언서·페이지와 &quot;을&quot;을 거치지 않고 직접 거래하지 않는다. 직접 연락을 받은 경우 &quot;을&quot;에게 알린다.</p>
 <p>3. 본 조를 위반한 당사자는 위반 건당 계약 금액의 10%를 위약금으로 지급하며, 이를 넘는 손해는 별도로 배상한다.</p>
@@ -61,9 +73,5 @@ h1{font-size:21px;text-align:center;margin:0 0 16px} h2{font-size:14.5px;margin:
 <p>3. 본 계약에 관한 분쟁은 서울중앙지방법원을 관할 법원으로 하며, 대한민국 법률에 따른다.</p>
 <p>본 계약을 증명하기 위하여 계약서 2부를 작성하고 서명 또는 날인한 후 각 1부씩 보관한다.</p>
 <p class="date">2026년 10월 &nbsp;&nbsp;&nbsp; 일</p>
-<div class="sigs"><div class="sig"><div class="who">(갑)</div>
-<p><span>상호</span><mark>【상호(법인명)】</mark> (브랜드: 데드폴트)</p><p><span>사업자등록번호</span><mark>【　　　　　　　　】</mark></p>
-<p><span>주소</span><mark>【　　　　　　　　　　　　　　】</mark></p><p><span>대표자</span><mark>【　　　　　】</mark> <em>(인)</em></p></div><div class="sig"><div class="who">(을)</div>
-<p><span>상호</span>주식회사 서울링크</p><p><span>사업자등록번호</span>302-87-03340</p>
-<p><span>주소</span>경기도 남양주시 별내중앙로 26, 5층 504-에이16호(별내동)</p><p><span>대표자</span>황영돈 <em>(인)</em></p></div></div>
+<div class="sigs"><div class="sig"><div class="who">(갑)</div><p><span>상호</span>주식회사 와이와이와이 (브랜드: 데드폴트)</p><p><span>사업자등록번호</span>730-87-03787</p><p><span>주소</span>경기도 포천시 군내면 유교로136번길 6-1, 1동</p><p><span>이메일</span>hello@whywhywhy.kr</p><p><span>대표자</span>최가은 <em>(인)</em></p></div><div class="sig"><div class="who">(을)</div><p><span>상호</span>주식회사 서울링크</p><p><span>사업자등록번호</span>302-87-03340</p><p><span>주소</span>경기도 남양주시 별내중앙로 26, 5층 504-에이16호(별내동)</p><p><span>대표자</span>황영돈 <em>(인)</em></p></div></div>
 </main></body></html>
